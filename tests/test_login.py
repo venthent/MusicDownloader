@@ -27,9 +27,9 @@ class TestSongList(TestCase):
     def test_love_songs_href(self):
         self.assertTrue(self.song.love_songs_href)
         self.assertTrue(isinstance(self.song.love_songs_href, list))
-        # print(self.song.love_songs_href)
+        print(self.song.love_songs_href)
 
     def test_name_and_href(self):
         self.assertTrue(self.song.name_and_href)
         self.assertTrue(isinstance(self.song.name_and_href,dict))
-        # print(self.song.name_and_href)
+        print(self.song.name_and_href)
